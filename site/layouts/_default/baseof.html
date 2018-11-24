@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
   </head>
-  <body>
+  <body class="g-body-container">
 
     {{ block "header" . }}{{ partial "header" . }}{{end}}
-
-    {{ block "main" . }}{{end}}
+    <div class="g-main">
+      {{ block "main" . }}{{end}}
+    </div>
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 

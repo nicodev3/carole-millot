@@ -3,6 +3,17 @@
     padding: 0.5rem;
 }
 
+.g-body-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.g-main {
+    flex: 1;
+    background-color: var(--secondary-lightest);
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 700px;
