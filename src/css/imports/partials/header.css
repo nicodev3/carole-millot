@@ -1,5 +1,5 @@
 .g-header {
-    background-color: var(--primary-dark);
+    background-color: var(--primary-darker);
 }
 
 .g-header ul {
@@ -14,6 +14,8 @@
 .g-header a {
     text-decoration: none;
     color: var(--grey-lightest);
+    font-family: var(--sans);
+    font-weight: 700;
 }
 
 @media (min-width: 768px) {
