@@ -1,0 +1,17 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--sans);
+}
+
+p {
+    line-height: 1.350;
+}

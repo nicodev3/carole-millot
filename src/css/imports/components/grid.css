@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 700px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
