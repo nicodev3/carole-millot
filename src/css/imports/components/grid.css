@@ -17,9 +17,13 @@
 .g-page__content {
   margin: 1rem auto;
   padding: 1rem;
-  background-color: var(--secondary-lightest);
+  background-color: var(--grey-lightest);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,.12),
   0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.g-page__content a {
+    color: var(--accent-color);
 }
 
 @media (min-width: 768px) {

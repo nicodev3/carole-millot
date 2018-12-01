@@ -25,6 +25,8 @@
     --secondary-lighter: hsl(92, 21%, 90%);
     --secondary-lightest: hsl(92, 21%, 95%);
 
+    --accent-color: #f5756c;
+
     --sans : 'Open Sans', sans-serif;
     --serif: 'Libre Baskerville', serif;
 
