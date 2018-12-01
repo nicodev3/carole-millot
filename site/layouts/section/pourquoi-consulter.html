@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container g-page__content">
+    <main class="g-page__main">
+        <header class="o-page-main__header">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Params.intro }}</p>
+        </header>
+        {{ .Content }}
+    </main>
+</div>
+{{ end }}
