@@ -11,6 +11,7 @@ import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
 import minifyHtml from "gulp-htmlmin";
+import sourcemaps from "gulp-sourcemaps";
 
 const browserSync = BrowserSync.create();
 
@@ -33,7 +34,9 @@ gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArg
 // Compile CSS with PostCSS
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
+    .pipe(sourcemaps.init())
     .pipe(postcss([cssImport({from: "./src/css/main.css"}), postcssPresetEnv()]))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
