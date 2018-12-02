@@ -26,6 +26,25 @@
     color: var(--accent-color);
 }
 
+.g-page__content li {
+  list-style-type: none;
+  line-height: 1.35rem;
+  position: relative;
+}
+
+.g-page__content li:before {
+  content: '⇝';
+  font-size: 1.1rem;
+  position: absolute;
+  left: -25px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.g-page__content svg {
+  fill: var(--primary-darkest);
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 700px;
