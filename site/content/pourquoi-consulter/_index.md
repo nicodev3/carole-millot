@@ -16,16 +16,22 @@ Mes champs de compétence :
 - deuil périnatal
 - IVG
 
+{{<horizontal-rule>}} 
+
 ## Infertilité : 
 
 - stérilité masculine et/ou féminine
 - parcours de PMA : FIV, IAC, IAD, ICSI, grossesse avec don d’ovocyte
+
+{{<horizontal-rule>}} 
 
 ## Adoption : 
 
 - projet d’adoption
 - adoption en France ou à l’international
 - suivi de parents adoptants et d’enfants adoptés
+
+{{<horizontal-rule>}} 
 
 ## Difficultés pendant l’adolescence, l’enfance ou la petite enfance :
 
@@ -36,6 +42,8 @@ Mes champs de compétence :
 - deuil 
 - divorce parental
 
+{{<horizontal-rule>}} 
+
 ## Difficultés chez les adultes :
 
 - Deuils
@@ -44,12 +52,16 @@ Mes champs de compétence :
 - surmenage, souffrance au travail, burn out
 - guidance parentale 
 
+{{<horizontal-rule>}} 
+
 ## Traumatismes psychiques : 
 
 - état de stress post traumatique 
 - Abus sexuels
 - viol
 - situation d’emprise psychique
+
+{{<horizontal-rule>}} 
 
 ## Handicap : 
 

@@ -10,3 +10,23 @@
 .info svg {
     margin-right: 1rem;
 }
+
+.hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    margin: 3rem 0;
+    border: none;
+    border-top: medium double var(--primary);
+    color: #333;
+    text-align: center;
+}
+.hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    color: var(--secondary);
+    font-size: 1.2em;
+    padding: 0 0.25em;
+    background: white;
+}

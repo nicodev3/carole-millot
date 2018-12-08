@@ -11,10 +11,14 @@ intro: Je me présente...
 - Diplôme Universitaire "Deuil et travail de deuil ", Université Paris XI, 2011
 - Formation à la Thérapie Familiale par Phases (Carole Gammer), 1991-1994
 
+{{<horizontal-rule>}} 
+
 ## Formation personnelle
 
 - Analyse avec un membre titulaire de la Société Psychanalytique de Paris 
 - Supervision  avec un membre adhérent de la SPP
+
+{{<horizontal-rule>}} 
 
 ## Expérience professionnelle
 
