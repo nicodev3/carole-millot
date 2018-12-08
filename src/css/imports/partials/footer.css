@@ -1,3 +1,22 @@
+.g-footer,
+.g-footer__nav a {
+  color: var(--secondary-light);
+}
+
 .g-footer {
-  background-color: var(--primary-dark);
+  padding: 1.5rem 0;
+  background-color: var(--primary-darker);
+}
+
+.g-footer__nav ul {
+  padding: 0;
+}
+
+.g-footer__nav li {
+  line-height: 1.6;
+  list-style-type: none;
+}
+
+.g-footer__nav a {
+  text-decoration: none;
 }

@@ -45,20 +45,6 @@
   fill: var(--primary-darkest);
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 700px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-  .g-page__main {
-    width: 70%;
-  }
-}
 
 .flex {
   display: flex;
@@ -75,3 +61,27 @@
 .jcsa {
   justify-content: space-around;
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .w-33-l {
+    width: 33%;
+  }
+
+  .flex-l {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .g-page__main {
+    width: 70%;
+  }
+}
+

@@ -5,6 +5,7 @@
 @import "imports/variables.css";
 @import "imports/components/grid.css";
 @import "imports/base.css";
+@import "imports/partials/main-content.css";
 @import "imports/partials/header.css";
 @import "imports/partials/footer.css";
 
