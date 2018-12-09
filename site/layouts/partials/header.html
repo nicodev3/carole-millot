@@ -1,14 +1,19 @@
 <header class="g-header">
-    <div class="container flex aic jcsb">
-        <div class="logo">
-            <a href="/"><img src="/img/carole-millot.svg" alt="" style="width:10rem;"></a>
+    <div class="container">
+        <div class="g-header__content">
+            <div class="logo">
+                <a href="/"><img src="/img/carole-millot.svg" alt="" style="width:10rem;"></a>
+            </div>
+            <nav class="g-header__nav">
+                <ul>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                            <a href="{{ .URL }}" class="o-nav__a">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </nav>
         </div>
-        <nav class="g-header__nav">
-            <ul>
-                <li><a href="/pourquoi-consulter">Pourquoi consulter</a></li>
-                <li><a href="/qui-suis-je">Qui suis-je</a></li>
-                <li><a href="/cabinet-de-psychologie">Le cabinet</a></li>
-            </ul>
-        </nav>
     </div>
 </header>

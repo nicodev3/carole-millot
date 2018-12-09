@@ -3,3 +3,20 @@ languageCode = "fr-FR"
 title = ""
 baseURL = ""
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[menu]
+  [[menu.main]]
+    identifier = "Consulter"
+    name = "Pourquoi consulter"
+    url = "/pourquoi-consulter/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Qui suis-je"
+    url = "/qui-suis-je/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Le cabinet"
+    url = "/cabinet-de-psychologie/"
+    weight = 3

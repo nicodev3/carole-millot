@@ -1,5 +1,20 @@
 .g-header {
+  height: 80px;
   background-color: var(--primary-darker);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.g-header .container {
+  height: 100%;
+}
+
+.g-header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .g-header ul {
@@ -11,11 +26,25 @@
   list-style-type: none;
 }
 
+.g-header__nav li.active {
+  background-color: var(--accent-color);
+}
+
 .g-header a {
+  display: block;
+  height: 80px;
+  padding: 0 1rem;
+  transition: background-color .3s ease-in;
   color: var(--grey-lightest);
   font-family: var(--sans);
   font-weight: 700;
+  line-height: 80px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.g-header a:hover {
+  background-color: var(--accent-color);
 }
 
 @media (min-width: 768px) {
@@ -25,7 +54,7 @@
   .g-header ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
   }
 
   .logo {

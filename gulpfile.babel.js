@@ -35,7 +35,7 @@ gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArg
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
     .pipe(sourcemaps.init())
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), postcssPresetEnv()]))
+    .pipe(postcss([cssImport({from: "./src/css/main.css"}), postcssPresetEnv({browsers: "last 2 versions"})]))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
