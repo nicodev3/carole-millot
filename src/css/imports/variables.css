@@ -6,8 +6,8 @@
     --grey: #b8c2cc;
     --grey-light: #dae1e7;
     --grey-lighter: #f1f5f8;
-    --grey-lightest: #f8fafc;
-    --white: #ffffff;
+    --grey-lightest: hsla(0, 0%, 99%, 1.00);
+    --white: hsla(0, 0%, 100%, 1.00);
 
     --primary-darkest:  hsl(180, 17%, 32%);
     --primary-darker: hsl(180, 17%, 42%);
