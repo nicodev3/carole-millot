@@ -15,6 +15,7 @@
 }
 
 .g-page__content {
+  position: relative;
   margin: 1rem auto;
   padding: 1rem;
   background-color: var(--grey-lightest);
@@ -23,22 +24,23 @@
 }
 
 .g-page__content a {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .g-page__content li {
-  list-style-type: none;
-  line-height: 1.35rem;
   position: relative;
+  line-height: 1.35rem;
+
+  list-style-type: none;
 }
 
 .g-page__content li:before {
-  content: '⇝';
-  font-size: 1.1rem;
   position: absolute;
   left: -25px;
-  font-weight: 700;
   color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 700;
+  content: '⇝';
 }
 
 .g-page__content svg {
@@ -63,6 +65,18 @@
 }
 
 @media (min-width: 768px) {
+  .g-page__content:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 100px 100px 0;
+    border-style: solid;
+    border-color: transparent var(--primary-lighter) transparent transparent;
+    content: '';
+  }
+
   .container {
     max-width: 700px;
   }
@@ -84,4 +98,3 @@
     width: 70%;
   }
 }
-
