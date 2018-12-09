@@ -28,15 +28,20 @@
   line-height: 80px;
 }
 
-.g-header__nav li.active a:after {
+.g-header__nav li.active a:after,
+.g-header a:after {
   content: '';
   display: block;
   position: absolute;
   bottom: 20px;
-  width: 85%;
   height: 5px;
-  background-color: var(--accent-color);
+  background-color: var(--secondary-lightest);
   transition: width .2s ease-in;
+  border-radius: 2px;
+}
+
+.g-header__nav li.active a:after {
+  width: 85%;
 }
 
 .g-header a {
@@ -52,14 +57,7 @@
 }
 
 .g-header a:after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 20px;
   width: 0;
-  height: 5px;
-  background-color: var(--accent-color);
-  transition: width .2s ease-in;
 }
 
 .g-header li:hover a:after {
