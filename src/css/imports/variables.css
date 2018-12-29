@@ -30,6 +30,7 @@
     --sans : 'Open Sans', sans-serif;
     --serif: 'Libre Baskerville', serif;
 
+    @custom-media --phone-only (max-width: 320px);
     @custom-media --small-viewport (min-width: 320px);
     @custom-media --ipad-portrait (min-width: 960px);
     @custom-media --ipad-landscape (min-width: 1024px);
