@@ -17,6 +17,15 @@
     font-size: 1.3em;
 }
 
+.o-page-main__header h2 {
+    font-style: italic;
+    margin: 0;
+    position: relative;
+    top: -14px;
+    font-size: 1.3rem;
+    left: 1rem;
+}
+
 .btn {
     text-decoration: none;
     padding: 1rem .8rem;
