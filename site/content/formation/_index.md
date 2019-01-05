@@ -1,7 +1,7 @@
 ---
-title: "Qui suis je"
+title: "Formations"
 description:
-intro: Je me présente...
+intro:
 ---
 
 ## Formation Universitaire

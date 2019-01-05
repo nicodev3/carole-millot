@@ -50,7 +50,8 @@ Mes champs de compétence :
 - séparation, divorce
 - mal-être, crises d’angoisse, irritabilité, état dépressif
 - surmenage, souffrance au travail, burn out
-- guidance parentale 
+- guidance parentale
+- retraite
 
 {{<horizontal-rule>}} 
 

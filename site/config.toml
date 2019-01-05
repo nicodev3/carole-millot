@@ -12,8 +12,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     weight = 1
 
   [[menu.main]]
-    name = "Qui suis-je"
-    url = "/qui-suis-je/"
+    name = "Formation"
+    url = "/formation/"
     weight = 2
 
   [[menu.main]]
