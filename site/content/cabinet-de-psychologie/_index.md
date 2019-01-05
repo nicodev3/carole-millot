@@ -1,5 +1,5 @@
 ---
-title: "Le cabinet"
+title: "Le cabinet de psychologie"
 description: 
 intro: "Le cabinet de psychologie est situé au 35 rue Notre Dame de Lorette dans le 9è arrondissement de Paris."
 ---

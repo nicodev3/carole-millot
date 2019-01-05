@@ -1,6 +1,6 @@
 ---
-title: "Pourquoi consulter"
-description:
+title: "Pourquoi consulter un psychologue"
+description: 
 intro: 
 ---
 
