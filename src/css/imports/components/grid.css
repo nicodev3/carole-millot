@@ -48,6 +48,10 @@
   fill: var(--primary-darkest);
 }
 
+.g-page__aside {
+  background-color: var(--primary-lightest);
+}
+
 
 .flex {
   display: flex;
@@ -66,6 +70,11 @@
 }
 
 @media (min-width: 768px) {
+  .g-page__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .g-page__content:after {
     position: absolute;
     top: 0;
@@ -78,8 +87,18 @@
     content: '';
   }
 
+  .g-page__main {
+    width: 70%;
+  }
+
+  .g-page__aside {
+    width: 25%;
+    margin-left: 5%;
+    padding: 2rem;
+  }
+
   .container {
-    max-width: 700px;
+    max-width: 1200px;
   }
 
   .w-33-l {
@@ -94,8 +113,5 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
-  }
-  .g-page__main {
-    width: 70%;
   }
 }
