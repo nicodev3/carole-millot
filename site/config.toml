@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "fr-FR"
 title = ""
-baseURL = ""
+baseURL = "https://carole-millot-psychologue.fr"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [menu]
