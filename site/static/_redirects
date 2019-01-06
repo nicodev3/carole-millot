@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://nostalgic-jackson-6eff50.netlify.com/* http://carole-millot-psychologue.fr/:splat 301!
+https://nostalgic-jackson-6eff50.netlify.com/* https://carole-millot-psychologue.fr/:splat 301!
