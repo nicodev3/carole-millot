@@ -6,8 +6,8 @@ intro:
 
 ## Formation Universitaire
 
-- DESS de psychologie de l’enfance et de l’adolescence | Université Paris V, 1989 
-- Diplôme Universitaire "Traumatismes psychiques, clinique, pathogénie, prise en charge" | Université Paris VI, 2010 
+- DESS de psychologie de l’enfance et de l’adolescence, Université Paris V, 1989 
+- Diplôme Universitaire "Traumatismes psychiques, clinique, pathogénie, prise en charge", Université Paris VI, 2010 
 - Diplôme Universitaire "Deuil et travail de deuil ", Université Paris XI, 2011
 - Formation à la Thérapie Familiale par Phases (Carole Gammer), 1991-1994
 
