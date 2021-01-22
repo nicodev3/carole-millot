@@ -5,8 +5,6 @@ description:
 
 ## Tarifs
 
-Le tarif d’une consultation est de 60 euros, non remboursés par la Sécurité Sociale. Toutefois, certaines mutuelles sont susceptibles de rembourser en totalité ou en partie le coût d’une séance.  
-
 Une consultation dure 45 minutes environ.
 
 Le paiement se fait à la fin de chaque consultation, par chèque ou en espèces. 
